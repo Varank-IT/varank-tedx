@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.header-logo{
+    height: 50px;
+}
+.text{
+    margin-left: 14px;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+
+}
