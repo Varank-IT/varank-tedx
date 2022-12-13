@@ -1,3 +1,10 @@
 .homescreen{
+    display: flex;
+    flex-direction: row;
     top: 70px;
+}
+.homescreenlogo{
+    height: 18vw;
+    position: fixed;
+    top: 10vw;
 }
