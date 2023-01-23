@@ -1,77 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEDxVarank | TED</title>
-    <link rel="icon" href="https://pa.tedcdn.com/favicon.ico">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/rotations.css">
-    <link rel="stylesheet" href="css/homescreen.css">
+    <title>Project-X</title>
+    <link rel="stylesheet" href="css/project-x.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main-section.css">
+    <link rel="stylesheet" href="css/mobile-nav.css">
+    <link rel="stylesheet" href="css/slidingabout.css">
+    <link rel="stylesheet" href="css/slidingfaq.css">
+    <link rel="stylesheet" href="css/slidignmap.css">
 </head>
-
 <body>
-    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
-        <table>
-            <tr>
-                <img id="logo" src="img/logo-white.jpg" alt="">
-                <td id="navigation">
-                    <a href="#work">work</a>
-                    <a href="#bio">about</a>
-                    <a href="#blog">blog</a>
-                    <a href="#contact">contact</a>
-                </td>
-            </tr>
-        </table>
-    </header>
-
-
-
-    </div> -->
-
-    <!-- Homescreen -->
-    <div class="homescreen">
-        <div class="outer-rotated" id="left-rotated">
-            <img class="rotated35" src="img/enivroment-removebg.png" alt="">
+    <!-- header (kutsal bok) -->
+    <div class="header">
+        <h2 class="logo">Project-<p>X</p></h2>
+        <div class="hamburger ">
+        <div class="menu-button"></div>
         </div>
-        <img class="homescreenlogo" src="img/logo-white.jpg" alt="">
     </div>
 
-    <div class="about">
-        <p>
-            TEDx hakkında, x = bağımsız olarak düzenlenen etkinlik
-            TEDx, yayılmaya değer fikirler ruhuyla, insanları TED benzeri bir deneyimi paylaşmak üzere bir araya getiren
-            yerel, kendi kendine organize edilen etkinliklerden oluşan bir programdır. Bir TEDx etkinliğinde, TED Talks
-            videosu ve canlı konuşmacılar bir araya gelerek derin tartışma ve bağlantıları tetikler. Bu yerel, kendi
-            kendine organize edilen etkinlikler TEDx olarak adlandırılır; burada x = bağımsız olarak organize edilen TED
-            etkinliği anlamına gelir. TED Konferansı, TEDx programı için genel rehberlik sağlar, ancak bireysel TEDx
-            etkinlikleri kendi kendine organize edilir. (Belirli kural ve düzenlemelere tabidir.)
+    <!-- opens when hamburger menu .is-active -->
+    <nav class="sliding-menu">
+        <a class="about" href="#">About</a>
+        <a class="faq" href="#">Faq</a>
+        <a class="map" href="#">Location</a>
+    </nav>
 
-            TED Hakkında
-            TED, kendini Yayılmaya Değer Fikirlere adamış kar amacı gütmeyen bir kuruluştur. Kaliforniya'da 30 yıl önce
-            dört günlük bir konferans olarak başlayan TED, misyonunu çok sayıda girişimle destekleyecek şekilde
-            büyümüştür. Her yıl düzenlenen iki TED Konferansı, dünyanın önde gelen düşünür ve eylemcilerini 18 dakika
-            veya daha kısa bir süre için konuşmaya davet etmektedir. Bu konuşmaların çoğu daha sonra TED.com adresinde
-            ücretsiz olarak yayınlanmaktadır. TED konuşmacıları arasında Bill Gates, Jane Goodall, Elizabeth Gilbert,
-            Sir Richard Branson, Nandan Nilekani, Philippe Starck, Ngozi Okonjo-Iweala, Sal Khan ve Daniel Kahneman yer
-            almaktadır.
-
-            Yıllık TED Konferansı her bahar Vancouver, British Columbia'da gerçekleştirilmektedir. TED'in medya
-            girişimleri arasında her gün yeni TED Konuşmalarının yayınlandığı TED.com; altyazılar ve interaktif
-            transkriptlerin yanı sıra dünya çapındaki gönüllülerden çeviriler sağlayan TED Translators; eğitim girişimi
-            TED-Ed yer almaktadır. TED, heyecan verici ölçekte değişim yaratma potansiyeline sahip fikirleri finanse
-            etmek için işbirlikçi bir yaklaşım benimseyen The Audacious Project'i; dünyanın dört bir yanında yerel,
-            kendi kendine organize edilen TED tarzı etkinliklere ev sahipliği yapmaları için bireyleri veya grupları
-            destekleyen TEDx'i ve dünyanın dört bir yanından dünyayı değiştiren yenilikçilerin olağanüstü projelerinin
-            ve faaliyetlerinin etkisini artırmalarına yardımcı olan TED Fellows programını kurmuştur.
-
-            TED'i Twitter'da http://twitter.com/TEDTalks adresinden veya Facebook'ta http://www.facebook.com/TED
-            adresinden takip edebilirsiniz.
-        </p>
+    <!-- section opens when about .is-active -->
+    <div class="sliding-about-section">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint excepturi mollitia iusto quisquam, ipsam reiciendis autem et, minus repudiandae optio suscipit nostrum accusamus, tempora repellendus dolorem reprehenderit dicta officia debitis!</p>
     </div>
+
+    <!-- section opens when faq .is-active -->
+    <div class="sliding-faq-section">
+        <p>PLACE HOLDER TEXT AMA HOLDER AYRI</p>
+    </div>
+
+    <!-- section opens when map .is-active -->
+    <div class="sliding-map-section">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3013.3233333091694!2d29.124876851287386!3d40.95249513070231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac6880b8786f5%3A0x1da8998bd491da0b!2s%C5%9Eehit%20%C4%B0lhan%20Varank%20High%20School%20of%20Science!5e0!3m2!1sen!2str!4v1664199525623!5m2!1sen!2str"
+                    width="90%" height="90%" style="border:0;" allowfullscreen="true" loading="lazy" margin="10vh"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+
+    <!-- adds shadow to mainpage when sliding menu .is-active  -->
+    <div class="blackblackblackeverythingisblack"></div>
+
+    <!-- background pls don't change (I have committed several crimes while adjusting the width)-->
+    <div class="video">
+        <img src="img/bg.png" alt="">
+    </div> 
+
+    <!-- guess who's back
+    back again
+    shady's back
+    tell a friend
+    guess whos back
+    guess whos back
+    guess whos back
+    guess whos back
+    guess whos back
+    guess whos back
+    guess whos back
+    nanana -->
+    <div class="main-section">
+        <h1>I have lasagna <br> in my ass</h1>
+        <p>please send help</p>
+        <div class="container1">
+            <button class="join-button">open ass</button>
+        </div>
+    </div>
+    <script src="js/hamburger.js"></script>
 </body>
-
 </html>
