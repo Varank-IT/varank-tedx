@@ -9,6 +9,7 @@ window.onload = function(){
     const faqmenu = document.querySelector(".sliding-faq-section");
     const mapbutton = document.querySelector(".map");
     const mapmenu = document.querySelector(".sliding-map-section");
+    
 
     menu_btn.addEventListener("click", function(){
         menu_btn.classList.toggle("is-active");
@@ -21,6 +22,7 @@ window.onload = function(){
         faqmenu.classList.remove("is-active");
         mapbutton.classList.remove("is-active");
         mapmenu.classList.remove("is-active");
+        secondmenu.classList.remove("is-active");
         
 
     })
@@ -52,6 +54,19 @@ window.onload = function(){
         aboutmenu.classList.remove("is-active");
         faqbutton.classList.remove("is-active");
         faqmenu.classList.remove("is-active");
-    })}
+    })
+
+    const secondmenubutton = document.querySelector(".konusmacilar");
+    const secondmenu = document.querySelector(".second-menu");
+    const backbutton = document.querySelector(".back");
+
+    secondmenubutton.addEventListener("click", function(){
+        secondmenu.classList.toggle("is-active");
+    })
+    backbutton.addEventListener("click", function(){
+        secondmenu.classList.remove("is-active");
+    })
+
+}
     
     

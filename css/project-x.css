@@ -15,6 +15,11 @@ body{
     height: 64px;
     z-index: 5;
 }
+.header > img{
+    height: 70px;
+    margin-left: 2vw ;
+    margin-top: 10px;
+}
 .hamburger{
     position: relative;
     display: block;
