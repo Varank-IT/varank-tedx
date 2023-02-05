@@ -1,6 +1,11 @@
 @media only screen and (max-width: 768px){
     .sliding-iklim.is-active{
-        width: 94.5vw; 
+        width: 90vw; 
+        overflow: auto;
+    }
+    .sliding-iklim > p{
+        margin: 0;
+        height: 90vh;
     }
     .sliding-asiricilik.is-active{
         width: 94.5vw; 
