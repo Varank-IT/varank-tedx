@@ -19,6 +19,15 @@
 .main-section > p{
     font-size: 25px;
 }
+@media only screen and (max-width: 768px){
+    .main-section > p{
+        font-size: 20px;
+    }
+    .main-section > h1{
+        margin-top: 40vw;
+        font-size: 40px;
+    }
+}
 .container1{
     /* background-color: pink; */
 

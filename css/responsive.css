@@ -1,4 +1,19 @@
 @media only screen and (max-width: 768px){
+    .sliding-iklim.is-active{
+        width: 94.5vw; 
+    }
+    .sliding-asiricilik.is-active{
+        width: 94.5vw; 
+    }
+    .sliding-baskicilik.is-active{
+        width: 94.5vw; 
+    }
+    .sliding-faq-section.is-active{
+        width: 94.5vw; 
+    }
+    .sliding-about-section.is-active{
+        width: 94.5vw; 
+    }
     .sliding-menu.is-active{
         width: 94.5vw;
     }
