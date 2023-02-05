@@ -16,7 +16,7 @@ body{
     z-index: 5;
 }
 .header > img{
-    height: 70px;
+    height: 10vh;
     margin-left: 2vw ;
     margin-top: 10px;
 }

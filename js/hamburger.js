@@ -32,6 +32,9 @@ window.onload = function(){
         mapmenu.classList.remove("is-active");
         secondmenu.classList.remove("is-active");
         backbutton.classList.remove("is-active");
+        slidingasiricilik.classList.remove("is-active");
+        slidingiklim.classList.remove("is-active");
+        slidingbaskicilik.classList.remove("is-active");
         
 
     })
@@ -66,7 +69,7 @@ window.onload = function(){
     })
 
     secondmenubutton.addEventListener("click", function(){
-        secondmenu.classList.add("is-active");
+        secondmenu.classList.toggle("is-active");
         backbutton.classList.toggle("is-active");   
     })
 
