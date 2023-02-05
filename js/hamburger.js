@@ -9,7 +9,15 @@ window.onload = function(){
     const faqmenu = document.querySelector(".sliding-faq-section");
     const mapbutton = document.querySelector(".map");
     const mapmenu = document.querySelector(".sliding-map-section");
-    
+    const secondmenubutton = document.querySelector(".konusmacilar");
+    const secondmenu = document.querySelector(".second-menu");
+    const backbutton = document.querySelector(".back");
+    const baskicibutton = document.querySelector(".baskici-ebeveynlik")
+    const iklimbutton = document.querySelector(".iklim");
+    const asiricilik = document.querySelector(".asiricilik");
+    const slidingasiricilik = document.querySelector(".sliding-asiricilik");
+    const slidingbaskicilik = document.querySelector(".sliding-baskicilik");
+    const slidingiklim = document.querySelector(".sliding-iklim");
 
     menu_btn.addEventListener("click", function(){
         menu_btn.classList.toggle("is-active");
@@ -23,6 +31,7 @@ window.onload = function(){
         mapbutton.classList.remove("is-active");
         mapmenu.classList.remove("is-active");
         secondmenu.classList.remove("is-active");
+        backbutton.classList.remove("is-active");
         
 
     })
@@ -56,16 +65,33 @@ window.onload = function(){
         faqmenu.classList.remove("is-active");
     })
 
-    const secondmenubutton = document.querySelector(".konusmacilar");
-    const secondmenu = document.querySelector(".second-menu");
-    const backbutton = document.querySelector(".back");
-
     secondmenubutton.addEventListener("click", function(){
-        secondmenu.classList.toggle("is-active");
+        secondmenu.classList.add("is-active");
+        backbutton.classList.toggle("is-active");   
     })
+
+    //geri butonunun sileceği şeyler//
     backbutton.addEventListener("click", function(){
-        secondmenu.classList.remove("is-active");
+        slidingasiricilik.classList.remove("is-active");
+        slidingiklim.classList.remove("is-active");
+        slidingbaskicilik.classList.remove("is-active");
     })
+
+    baskicibutton.addEventListener("click",function(){
+        slidingbaskicilik.classList.toggle("is-active");
+    })
+    iklimbutton.addEventListener("click",function(){
+        slidingiklim.classList.toggle("is-active");
+    })
+    asiricilik.addEventListener("click",function(){
+        slidingasiricilik.classList.toggle("is-active");
+    })
+
+
+
+
+
+
 
 }
     

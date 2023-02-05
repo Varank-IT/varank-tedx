@@ -1,0 +1,132 @@
+.sliding-asiricilik{
+    display: block;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    z-index: 4;
+    height: 88vh;
+    background-color: rgb(24, 24, 24) ;
+    width: 78vw;
+    padding-top: 100px;
+    margin: 10px;
+    border-radius: 15px;
+    transition: 300ms;
+    opacity: 0;
+}
+.sliding-asiricilik p{
+    font-family: unbounded;
+    margin-left: 62px;
+    color: white;
+}
+.sliding-asiricilik.is-active{
+    display: block;
+    position: fixed;
+    left: 10px;
+    top: 0;
+    z-index: 4;
+    height: 88vh;
+    background-color: rgb(24, 24, 24) ;
+    width: 78vw;
+    padding-top: 100px;
+    margin: 10px;
+    border-radius: 15px;
+    transition: 300ms;
+    opacity: 1;
+}
+.asiricilik.is-active{
+    transition: 200ms;
+    border-color: white;
+    background-color: black;
+    text-decoration: none;
+    color: white; 
+    font-family: unbounded;
+}
+
+.sliding-baskicilik{
+    display: block;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    z-index: 4;
+    height: 88vh;
+    background-color: rgb(24, 24, 24) ;
+    width: 78vw;
+    padding-top: 100px;
+    margin: 10px;
+    border-radius: 15px;
+    transition: 300ms;
+    opacity: 0;
+}
+.sliding-baskicilik p{
+    font-family: unbounded;
+    margin-left: 62px;
+    color: white;
+}
+.sliding-baskicilik.is-active{
+    display: block;
+    position: fixed;
+    left: 10px;
+    top: 0;
+    z-index: 4;
+    height: 88vh;
+    background-color: rgb(24, 24, 24) ;
+    width: 78vw;
+    padding-top: 100px;
+    margin: 10px;
+    border-radius: 15px;
+    transition: 300ms;
+    opacity: 1;
+}
+.baskici-ebeveynlik.is-active{
+    transition: 200ms;
+    border-color: white;
+    background-color: black;
+    text-decoration: none;
+    color: white; 
+    font-family: unbounded;
+}
+
+
+.sliding-iklim{
+    display: block;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    z-index: 4;
+    height: 88vh;
+    background-color: rgb(24, 24, 24) ;
+    width: 78vw;
+    padding-top: 100px;
+    margin: 10px;
+    border-radius: 15px;
+    transition: 300ms;
+    opacity: 0;
+}
+.sliding-iklim p{
+    font-family: unbounded;
+    margin-left: 62px;
+    color: white;
+}
+.sliding-iklim.is-active{
+    display: block;
+    position: fixed;
+    left: 10px;
+    top: 0;
+    z-index: 4;
+    height: 88vh;
+    background-color: rgb(24, 24, 24) ;
+    width: 78vw;
+    padding-top: 100px;
+    margin: 10px;
+    border-radius: 15px;
+    transition: 300ms;
+    opacity: 1;
+}
+.iklim.is-active{
+    transition: 200ms;
+    border-color: white;
+    background-color: black;
+    text-decoration: none;
+    color: white; 
+    font-family: unbounded;
+}
