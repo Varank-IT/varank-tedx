@@ -1,0 +1,22 @@
+/* Theme */
+
+main {
+	background: #EDEDED;
+	color: #4B5658;
+}
+
+.icons-social a {
+	color: #4B5658;
+}
+
+.icons-social a svg path {
+	fill: #4B5658;
+}
+
+.icons-social img {
+	transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.icons-social a:hover img {
+	transform: scale(1.4);
+}
